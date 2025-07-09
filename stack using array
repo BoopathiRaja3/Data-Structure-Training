@@ -1,9 +1,8 @@
-# Stack using array (list)
+
 MAX_SIZE = 100  # optional limit
 
 stack = []
-top = -1  # initially stack is empty
-
+top = -1  
 def push(item):
     global top
     if top >= MAX_SIZE - 1:
@@ -30,7 +29,9 @@ def display():
         for i in range(top, -1, -1):
             print(stack[i])
 
-# User menu
+
+
+
 while True:
     print("\n--- Stack Menu ---")
     print("1. Push")
