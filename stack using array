@@ -1,5 +1,5 @@
 
-MAX_SIZE = 100  # optional limit
+MAX_SIZE = 100  
 
 stack = []
 top = -1  
